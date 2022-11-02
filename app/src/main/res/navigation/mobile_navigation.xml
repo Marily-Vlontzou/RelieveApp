@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ntua.hci.relieveapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_recycling"
+        android:name="ntua.hci.relieveapp.ui.recycling.RecyclingFragment"
+        android:label="Recycling Points"
+        tools:layout="@layout/fragment_recycling" />
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="ntua.hci.relieveapp.ui.tips.TipsFragment"
+        android:label="Tips"
+        tools:layout="@layout/fragment_tips" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_newsfeed"
+        android:name="ntua.hci.relieveapp.ui.newsfeed.NewsfeedFragment"
+        android:label="Newsfeed"
+        tools:layout="@layout/fragment_newsfeed" />
+
+    <fragment
+        android:id="@+id/nav_addpoint"
+        android:name="ntua.hci.relieveapp.ui.addpoint.AddpointFragment"
+        android:label="Add Point"
+        tools:layout="@layout/fragment_addpoint" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="ntua.hci.relieveapp.ui.report.ReportFragment"
+        android:label="Report Problem"
+        tools:layout="@layout/fragment_report" />
+
+
+</navigation>

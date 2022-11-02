@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.tips.TipsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What can we help you with?"
+            android:textAlignment="center"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton_bat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help me recycle my Batteries"
+                android:textColor="#1094A4" />
+
+            <RadioButton
+                android:id="@+id/radioButton_elec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to recycle my Electronic Devices"
+                android:textColor="#1094A4" />
+
+            <RadioButton
+                android:id="@+id/radioButton_clothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What sould I know before donating my Clothes"
+                android:textColor="#1094A4" />
+
+            <Button
+                android:id="@+id/button_tellme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Tell me more" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/text_howtobat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Recycle your Lithium Batteries"
+            android:textAlignment="center"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_howtoelec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Recycle your old Smartphone"
+            android:textAlignment="center"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_howtoclothes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Things You Need to Know Before Donating Clothes"
+            android:textAlignment="center"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView_bat"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:src="@drawable/recycle_batteries" />
+        <ImageView
+            android:id="@+id/imageView_elec"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:src="@drawable/imageview2" />
+        <ImageView
+            android:id="@+id/imageView_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:src="@drawable/imageview3" />
+
+        <TextView
+            android:id="@+id/text_battery_tips"
+            android:layout_width="400dp"
+            android:layout_height="565dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_elec_tips"
+            android:layout_width="400dp"
+            android:layout_height="448dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_clothes_tips"
+            android:layout_width="400dp"
+            android:layout_height="362dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209952750918",
+    "project_id": "relieveapp-64814",
+    "storage_bucket": "relieveapp-64814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209952750918:android:c2e6009953e1150d8ff947",
+        "android_client_info": {
+          "package_name": "ntua.hci.relieveapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209952750918-mk1cj21ov3g569vo6aorvpje3sli6pm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnxJBcLXrTp8ak-0a3Y5sjAcT6_uFqRYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209952750918-mk1cj21ov3g569vo6aorvpje3sli6pm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
